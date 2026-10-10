@@ -1,0 +1,7 @@
+{
+  "forge-std": {
+    "repository": "https://github.com/foundry-rs/forge-std",
+    "sourceSnapshotSha256": "e0a91e3ce4817bafb375d1094f3698326badbd791a40c9d180856abff7b55001",
+    "distribution": "vendored src and licenses; original checkout revision unavailable"
+  }
+}

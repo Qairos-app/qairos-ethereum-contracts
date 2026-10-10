@@ -1,0 +1,46 @@
+{
+  "name": "@qairos-app/ethereum-contracts",
+  "version": "0.1.0",
+  "description": "Ethereum oracle, canary, Ark, vault, markets and insurance contracts.",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "author": {
+    "name": "Qairos",
+    "email": "support@qairos.tech"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Qairos-app/qairos-ethereum-contracts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Qairos-app/qairos-ethereum-contracts/issues"
+  },
+  "homepage": "https://github.com/Qairos-app/qairos-ethereum-contracts#readme",
+  "engines": {
+    "node": ">=24"
+  },
+  "packageManager": "pnpm@10.26.1",
+  "scripts": {
+    "build": "forge build",
+    "test": "forge test",
+    "validate": "forge build && forge test",
+    "release:package": "forge build && node scripts/package-release.mjs"
+  },
+  "files": [
+    "src",
+    "lib",
+    "test",
+    "script",
+    "foundry.toml",
+    "DEPENDENCIES.json",
+    "deployments",
+    "abi",
+    "docs",
+    "LICENSE",
+    "NOTICE",
+    "README.md",
+    "SECURITY.md",
+    "CHANGELOG.md"
+  ]
+}
